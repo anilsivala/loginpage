@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML-CSS</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		h1 {
+			background-color: skyblue;
+			color: #fff;
+		}
+		div p {
+			font-size:10px;
+		}
+		.bt {
+			padding: 5px 55px;
+			background: skyblue;
+			color: white;
+		}
+		.fa-facebook {
+			padding: 5px 76px;
+		 	background: blue;
+		  	color: white;
+		}
+		.fa-google {
+			padding: 5px 74px;
+			background : red;
+			color :white;
+		}
+		.btn {
+			padding: 5px 28px;
+			background: green;
+			color: white;
+		}
+	</style>
+</head>
+<body align="center" >
+	<form method="POST">
+		<h1 >Sign in</h1><br>
+		<input type="text" name="username" placeholder="mail@example.com"><br><br>
+		<input type="password" name="password" placeholder="password"><br><br>
+		<button type="submit" name="submit" class="bt">SIGN IN</button><br>
+	</form>
+	<div>
+		<p>Forgot your password?</p>
+		<p>          </p>
+		<p>Register! </p>
+	</div>
+		<p>-------------OR-------------</p><br>
+		<button class="fa fa-facebook" onclick="window.location.href = 'https://www.facebook.com';"></button><br>
+		<button class="fa fa-google" onclick="window.location.href = 'https://www.gmail.com';"></button><br><br>
+		<button class="btn" onclick="window.location.href = 'https://www.epam.com';"> < EPAM LOGIN ></button>
+	
+
+</body>
+</html>
